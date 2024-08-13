@@ -1,8 +1,13 @@
-# React + Vite
+# Redux-Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4>Assume, we have a main component and there have many outer component, If i need a data(which have in the main component) in an outer component. Then we have to do pass the data as props by one component to an another component. But using redux this problem solve easily.</h4>
 
-Currently, two official plugins are available:
+<h4>Install:</h4>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- npm install @reduxjs/toolkit
+- npm install react-redux
+
+<h4>What to Do:</h4>
+
+- configureStore()
+- createReducer()
