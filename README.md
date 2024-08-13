@@ -11,3 +11,5 @@
 
 - configureStore()
 - createReducer()
+- useDispatch
+- useSelector
